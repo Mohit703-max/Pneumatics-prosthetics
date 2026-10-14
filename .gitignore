@@ -1,0 +1,39 @@
+# Secrets and environment settings
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Machine learning artifacts and datasets
+*.joblib
+*.pkl
+*.pickle
+*.h5
+*.keras
+*.pt
+*.pth
+*.mat
+
+# Mobile dependencies and build output
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+
+# Editors and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.dbmobile/.git-backup/
+mobile/.git-backup/
+mobile/.claude/
+mobile/.expo/
+mobile/node_modules/
+mobile/.vscode/
